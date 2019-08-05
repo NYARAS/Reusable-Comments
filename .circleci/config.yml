@@ -20,7 +20,9 @@ jobs:
           name: Running tests
           command: |
             . venv/bin/activate
-            python3 manage.py test
+             coverage run  --branch --source='.' manage.py test
+            coverage report --fail-under=80
+            coverage html
       - store_artifacts:
           path: test-reports/
           destination: python_app
