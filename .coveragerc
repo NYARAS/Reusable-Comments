@@ -9,5 +9,6 @@ omit =
     mysite/test_settings.py
     venv*
     blog/migrations*
+    blog/app.py
    
     
