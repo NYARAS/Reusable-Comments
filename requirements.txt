@@ -1,6 +1,6 @@
 Django~=2.0.6
 django-cors-headers==2.0.2
-djangorestframework==3.6.2
+djangorestframework==3.11.2
 djangorestframework-jwt==1.9.0
 packaging==16.8
 PyJWT==1.4.2
